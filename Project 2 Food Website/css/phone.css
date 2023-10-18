@@ -1,0 +1,40 @@
+/* Navbar Section */
+#navbar {
+    flex-direction: column;
+}
+
+
+/* Home Section */
+#home {
+    padding: 90px 18px;
+    height: 385px;
+}
+
+#home::before {
+    height: 60%;
+}
+
+#home p {
+    font-size: 14px;
+}
+
+/* Services Section  */
+
+#services {
+    flex-direction: column;
+    margin: 5px;
+}
+
+/* Client Section  */
+
+#clients {
+    overflow: hidden;
+}
+
+/* Contact Section  */
+
+/* Utility Section  */
+
+.h-primary {
+    font-size: 25px;
+}

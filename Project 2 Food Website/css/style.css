@@ -1,0 +1,252 @@
+/* CSS Reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar  */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+    margin: 10px;
+}
+
+/* Navigation Bar : Logo and Image */
+
+#logo {
+    margin: 12px 10px;
+    background: linear-gradient(blue, purple, maroon, pink, lavender);
+    padding: 2px;
+}
+
+#logo img {
+    height: 75px;
+    width: 80px;
+}
+
+/* Navigation Bar : List Styling */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: rgb(77, 74, 74);
+
+}
+
+/* Home Section  */
+
+#home {
+    display: flex;
+    padding: 30px 200px;
+    height: 730px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/Img/Logo/top-view-1248955_1280.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Services Classes */
+
+#services {
+    margin: 5px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid green;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(236 226 226);
+}
+
+#services .box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+/* Clients Section  */
+
+#clients-section {
+    height: 300px;
+    position: relative;
+}
+
+#clients-section::before {
+    content: "";
+    position: absolute;
+    background: url(/Img/bg/bg.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.65;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .client-item {
+    padding: 30px;
+}
+
+#clients img {
+    height: 120px;
+}
+
+/* Contact section  */
+
+#contact {
+    position: relative;
+    height: 450px;
+    margin: 10px 0;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url(/Img/Media/Contactus.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.1rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Footer section  */
+
+footer {
+    background: black;
+    color: white;
+    margin: 5px 0;
+    padding: 15px 20px;
+}
+
+
+/* Utility classes */
+
+.h-primary {
+    padding: 20px;
+    font-size: 3.0rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.h-secondary {
+    padding: 10px;
+    font-size: 2.0rem;
+    font-family: 'Balsamiq Sans', cursive;
+    /* color: white; */
+}
+
+.btn {
+    padding: 10px;
+    margin: 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: maroon;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 10px;
+    margin: 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(118, 95, 95);
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+}

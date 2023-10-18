@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/Images/Logo.jpg');
+    color: white;
+    font-family: 'Borel', cursive;
+    /* overflow: hidden; */
+
+}
+
+.left {
+    /* border: 2px solid red;  */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 25px;
+    
+}
+
+.left img {
+    width: 110px;
+    filter: invert(100%);
+    margin: 0px 10px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 25px auto;
+    /* border: 2px solid green;  */
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey
+}
+
+.right {
+    /* border: 2px solid yellow;  */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 25px;
+
+}
+
+.btn {
+    font-family: 'Borel', cursive;
+    margin: 10px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease-out 0.8sec 0.1sec;
+}
+
+.btn:hover {
+    background-color: gray;
+    transform :translateX(-10px);
+}
+
+.container {
+    /* border: 2px solid purple;  */
+    width: 33%;
+    margin: 85px 130px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 360px;
+    padding: 7px;
+    margin: 7px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.conatiner button {
+    display: block;
+    width: 23%;
+    margin: auto;
+}
